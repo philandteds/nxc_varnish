@@ -1,8 +1,6 @@
 <?php /* #?ini charset="utf-8"?
 
 [General]
-# 7 days
-LogsExpiryTime=604800
 # List of used Varnish servers
 VarnishServers[]
 VarnishServers[]=node1
