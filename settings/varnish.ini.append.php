@@ -4,10 +4,10 @@
 # List of used Varnish servers
 VarnishServers[]
 VarnishServers[]=node1
-#VarnishServers[]=node2
+VarnishServers[]=node2
 
 [VarnishServer_node1]
-Host=varnish1
+#Host=varnish1
 Port=6082
 Timeout=10
 #SecretFile=/etc/varnish/secret1
